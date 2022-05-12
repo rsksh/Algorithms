@@ -32,7 +32,7 @@ public class RandomWord {
 
  */
 
-        String challenger = "";
+     //   String challenger = "";
         String champ = StdIn.readString();
       //  StdOut.print("Initial Champ:");
     //    StdOut.println(champ);
@@ -40,7 +40,7 @@ public class RandomWord {
         int count = 1;
         while (!StdIn.isEmpty()) {
             count++;
-            challenger = StdIn.readString();
+         String challenger = StdIn.readString();
      //       StdOut.print("A new Challenger approaches:  ");
     //       StdOut.println(champ);
 
@@ -49,7 +49,7 @@ public class RandomWord {
       //          StdOut.println("Yes, Change the champ to the challenger");
             }
       //      StdOut.print("Current champ: ");
-            StdOut.println(champ);
+        //    StdOut.println(champ);
         }
         StdOut.println(champ);
     }
